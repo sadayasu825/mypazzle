@@ -1,3 +1,6 @@
-puts 100 * (1.to_f/100.to_f)
+ary = []
+int = nil
 
-
+p !ary.empty?
+p !int.nil?
+p !ary.empty? && int.nil?
