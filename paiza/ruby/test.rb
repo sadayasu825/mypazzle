@@ -1,6 +1,9 @@
-ary = []
-int = nil
+ary = [1, 2, 3, '4', 5, '6', 7]
 
-p !ary.empty?
-p !int.nil?
-p !ary.empty? && int.nil?
+# if !ary.select{|x| x > 5}.empty?
+#    p true
+# else 
+#    p false
+# end
+
+p ary.select{|x| x == x.to_s}
