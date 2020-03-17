@@ -32,6 +32,3 @@ max = fees.max
 min = fees.min 
 
 puts min.to_s + ' ' + max.to_s
-    
-    
-    
